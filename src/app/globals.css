@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background: #fff;
+}
+
+.banner-item div.item:hover,
+.banner-item h2:hover,
+.banner-item p:hover {
+  color: #fff;
+}
+@keyframes sm-shake-animation {
+  0% {
+    transform: rotate(0) scale(1) skew(0.017rad);
+  }
+  25% {
+    transform: rotate(0) scale(1) skew(0.017rad);
+  }
+  35% {
+    transform: rotate(-0.3rad) scale(1) skew(0.017rad);
+  }
+  45% {
+    transform: rotate(0.3rad) scale(1) skew(0.017rad);
+  }
+  55% {
+    transform: rotate(-0.3rad) scale(1) skew(0.017rad);
+  }
+  65% {
+    transform: rotate(0.3rad) scale(1) skew(0.017rad);
+  }
+  75% {
+    transform: rotate(0) scale(1) skew(0.017rad);
+  }
+  100% {
+    transform: rotate(0) scale(1) skew(0.017rad);
+  }
+}
+@keyframes sm-rotate-animation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    color: #373737;
+  }
+  .btn {
+    @apply relative flex justify-center items-center btn-primary max-w-[250px] p-3 w-full mt-5 bg-[#000] hover:bg-[#1F2740] text-white font-bold rounded-xl text-[16px] duration-700 text-center;
+  }
+  .banner-item .item:hover .icon_circlo {
+    background-color: #373737;
+  }
+  .btn-primary div {
+    opacity: 0;
+    transition: all 700ms ease-in-out;
+  }
+  .foooter-social .social:hover .instagram {
+    color: #fff !important;
+  }
+  .btn-primary:hover div {
+    opacity: 1;
+  }
+}
