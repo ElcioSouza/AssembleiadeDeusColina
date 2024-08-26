@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import React from "react";
 import Image from "next/image";
 import { date } from "@/utils/date";
@@ -28,9 +28,10 @@ export default function Footer({ className = "", ItemMenu }: FooterProps) {
             <div className="text-[1.5rem] font-bold mb-3 flex gap-2 items-center">
               <SiGooglemaps /> Endereço
             </div>
-            <div className="text-[1rem] ">Rua Sete, N° 11 - Colina, Ataíde</div>
+            <div className="text-[1rem] ">Rua 7, N° 11 - Colina, Ataíde</div>
             <div className="text-[1rem]">Vila Velha - ES - CEP 29119445</div>
-            <div></div>
+            <a href="tel:27992583137" className="text-[1rem] block">Telefone: (27) 99258-3137</a>
+            <a href="mailto:assembleiadedeusfamiliacolinas@gmail.com" className="text-[1rem] block">Email: assembleiadedeusfamiliacolinas@gmail.com </a>
           </div>
           <div>
             <h2 className="text-[1.5rem] font-bold">Assembleia de Deus</h2>
@@ -58,11 +59,18 @@ export default function Footer({ className = "", ItemMenu }: FooterProps) {
           </div>
           <div className="foooter-social xl:max-w-[150px] w-full md:max-w-auto md:w-auto md:self-start">
             <h2 className="text-[1.5rem] font-bold text-left">Siga-me</h2>
+            <div className="flex gap-3 flex-wrap">
             <a href="https://www.instagram.com/assembleiadedeusfamiliacolinas">
               <div className="social bg-white h-[40px] w-[40px] rounded-full flex justify-center items-center hover:bg-[#A9328C] hover:text-white transition duration-700 hover:scale-125 mt-4">
                 <FaInstagram className="instagram text-[20px] text-black" />
               </div>
             </a>
+            <a href="https://www.facebook.com/Assembleiadedeusfamiliacolinas">
+              <div className="social bg-white h-[40px] w-[40px] rounded-full flex justify-center items-center hover:bg-[#0866ff] hover:text-white transition duration-700 hover:scale-125 mt-4">
+                <FaFacebook className="instagram text-[20px] text-black" />
+              </div>
+            </a>
+            </div>
           </div>
         </div>
       </div>

@@ -72,10 +72,15 @@ export default function Home() {
                       Pastor Francisco Araújo
                     </p>
                   </div>
-                  <div className="flex justify-center items-center mt-3 gap-3">
+                  <div className="flex justify-center items-center mt-3 gap-3 ">
                   <div className="bg-black h-[40px] w-[40px] rounded-full flex justify-center items-center hover:bg-[#A9328C] transition duration-700 hover:scale-125">
                       <a href="https://www.instagram.com/assembleiadedeusfamiliacolinas">
                         <FaInstagram className="text-[20px] text-white" />
+                      </a>
+                    </div>
+                    <div className="bg-black h-[40px] w-[40px] rounded-full flex justify-center items-center hover:bg-[#0866ff] transition duration-700 hover:scale-125">
+                      <a href="https://www.facebook.com/Assembleiadedeusfamiliacolinas">
+                        <FaFacebook className="text-[20px] text-white" />
                       </a>
                     </div>
                   </div>
