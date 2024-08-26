@@ -209,7 +209,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-center items-center">
             <div className="w-[100%] xl:w-[50%] px-10">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.7877259204506!2d-40.32869082438269!3d-20.350386181134642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83de1856ba0a3%3A0xe7d6897edae9e558!2sR.%20Sete%20(Colinas)%20-%20Aribiri%2C%20Vila%20Velha%20-%20ES!5e0!3m2!1spt-PT!2sbr!4v1724360938333!5m2!1spt-PT!2sbr" width="600" height="450" className="w-full h-[450px]" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d742.2705322789435!2d-40.32730644090967!3d-20.349513147094815!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDIwJzU5LjMiUyA0MMKwMTknMzguMSJX!5e0!3m2!1spt-BR!2sbr!4v1724696661284!5m2!1spt-BR!2sbr"  width="600" height="450" className="w-full h-[450px]" loading="lazy"></iframe>
             </div>
             <div className="w-[100%] xl:w-[50%]">
               <div className="text-center my-4 md:my-0">
