@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   description: "Somos uma igreja conservadora de visão progressista no sentido de avançar na fé e na comunhão bíblica seguindo sempre os parâmetros das Sagradas Escrituras.",
   keywords: [
     "Assembeia de Deus",
-    "Assembeia de Deus colina",
+    "Assembeia de Deus colinas",
   ],
   title: {
-    default: "Assembeia de Deus Colina",
-    template: "%s | Assembeia de Deus Colina",
+    default: "Assembeia de Deus Colinas",
+    template: "%s | Assembeia de Deus Colinas",
   },
   robots: {
     index: true, 

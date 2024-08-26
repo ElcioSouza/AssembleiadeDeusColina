@@ -76,7 +76,7 @@ export default function Footer({ className = "", ItemMenu }: FooterProps) {
       </div>
       <div className="border-t-[0.2px] border-white pt-[1rem] mt-[2.4rem] md:mt-[2rem] py-4 md:py-auto">
         <p className="text-center">
-          © {currentData.getFullYear()} Assembleia de Deus Colina. Todos os direitos
+          © {currentData.getFullYear()} Assembleia de Deus Colinas. Todos os direitos
           reservados.
         </p>
       </div>
