@@ -60,16 +60,16 @@ export default function Footer({ className = "", ItemMenu }: FooterProps) {
           <div className="foooter-social xl:max-w-[150px] w-full md:max-w-auto md:w-auto md:self-start">
             <h2 className="text-[1.5rem] font-bold text-left">Siga-me</h2>
             <div className="flex gap-3 flex-wrap">
-            <a href="https://www.instagram.com/assembleiadedeusfamiliacolinas">
+            <Link target="_blank" href="https://www.instagram.com/assembleiadedeusfamiliacolinas">
               <div className="social bg-white h-[40px] w-[40px] rounded-full flex justify-center items-center hover:bg-[#A9328C] hover:text-white transition duration-700 hover:scale-125 mt-4">
                 <FaInstagram className="instagram text-[20px] text-black" />
               </div>
-            </a>
-            <a href="https://www.facebook.com/Assembleiadedeusfamiliacolinas">
+            </Link>
+            <Link target="_blank" href="https://www.facebook.com/Assembleiadedeusfamiliacolinas">
               <div className="social bg-white h-[40px] w-[40px] rounded-full flex justify-center items-center hover:bg-[#0866ff] hover:text-white transition duration-700 hover:scale-125 mt-4">
                 <FaFacebook className="instagram text-[20px] text-black" />
               </div>
-            </a>
+            </Link>
             </div>
           </div>
         </div>
